@@ -16,12 +16,15 @@ Each model will be evaluated on test data (split between train and test- 70:30).
 # Conclusion
 Based on the results of the two models, it appears that Closing prices are a far better indicator for predicting prices.
 
-Which model has a lower loss?
-Model using Closing prices has a lower loss.
+- Which model has a lower loss?
 
-Which model tracks the actual values better over time?
+LSTM Model using Closing prices has a lower loss.
+
+- Which model tracks the actual values better over time?
+
 From the graphs, we can say that the LSTM with Closing prices is a far better model and the FNG model is not suitable at all.
 
-Which window size works best for the model?
+- Which window size works best for the model?
+
 Tested for several window_sizes and window size of 1 seems to be better than window_size 10.
 
